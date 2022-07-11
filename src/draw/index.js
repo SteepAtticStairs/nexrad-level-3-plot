@@ -69,7 +69,7 @@ const draw = (data, product, _options) => {
 			// see if there's a sample to plot
 			if (!thisSample) return;
 			ctx.beginPath();
-			ctx.strokeStyle = palette[Math.round(thisSample * paletteScale)];
+			ctx.strokeStyle = palette[thisSample];
 			ctx.arc(0, 0, (idx + data.radialPackets[0].firstBin) / scale, startAngle, endAngle);
 			ctx.stroke();
 		});

@@ -8,7 +8,7 @@ const { plotAndData, writePngToFile } = require('../src');
 // const fileName = LOT_N0S_2021_01_31_11_06_30';
 
 // 78 One-hour precipitation
-const fileName = 'LOT_N1P_2021_01_31_11_06_30';
+const fileName = 'LWX_N0Q_2022_04_18_15_21_24';
 
 // 80 NTP Storm total accumulation
 // const fileName = LOT_NTP_2021_01_31_11_06_30';
